@@ -6,11 +6,11 @@ use CodeIgniter\Database\Seeder;
 
 class ProductSeeder extends Seeder
 {
-     public function run()
+    public function run()
     {
-         // Load helper
+        // Load helper
         helper('common');
-        
+
         $data = [
             ['name' => 'Laptop', 'price' => 50000, 'stock' => 250, 'created_at' => current_timestamp()],
             ['name' => 'Mouse', 'price' => 600, 'stock' => 50, 'created_at' => current_timestamp()],

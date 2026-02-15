@@ -2,7 +2,7 @@
 
 if (!function_exists('current_timestamp')) {
     /**
-     * বর্তমান সময়ের UNIX timestamp
+    
      *
      * @return int
      */
