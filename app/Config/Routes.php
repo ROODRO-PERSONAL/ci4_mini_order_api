@@ -29,7 +29,7 @@ $routes->group('api', function ($routes) {
     $routes->post('products/(:num)', 'Api\ProductController::updateProductAllData/$1');
     $routes->delete('products/(:num)', 'Api\ProductController::deleteProd/$1');
     // get cal from service
-    $routes->get('products/(:num)/total-value', 'Api\ProductController::calCulateTotalProdValue/$1');
+    $routes->get('products/total-value/(:num)', 'Api\ProductController::calCulateTotalProdValue/$1');
     $routes->get('products/total-inv-val', 'Api\ProductController::calCulateTotalInv');
     $routes->get('products/total-active-inv-val', 'Api\ProductController::calculateTotalActiveInv');
 
