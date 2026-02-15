@@ -1,0 +1,57 @@
+# =========================
+# CI4 Environment
+# =========================
+.env
+
+# =========================
+# Composer Dependencies
+# =========================
+/vendor/
+
+# =========================
+# Writable Folder (runtime files)
+# =========================
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+/writable/debugbar/*
+
+# keep folder structure
+!/writable/cache/index.html
+!/writable/logs/index.html
+!/writable/session/index.html
+!/writable/uploads/index.html
+
+# =========================
+# System generated files
+# =========================
+phpunit.xml
+phpunit.xml.dist
+/.phpunit.result.cache
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE Files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Node (if used)
+# =========================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# =========================
+# Build / Temp
+# =========================
+*.log
+*.tmp
+*.cache
