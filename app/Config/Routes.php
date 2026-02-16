@@ -35,5 +35,4 @@ $routes->group('api', function ($routes) {
 
     // check patch how it works
     $routes->patch('products/(:num)', 'Api\ProductController::setDelete/$1');
-
 });
